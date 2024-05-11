@@ -19,5 +19,64 @@
     <h2>Subtítulo 2</h2>
 
     <p><strong>Outro paragráfo:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto fugit iure? Vero, recusandae nihil libero autem repellendus dolorum temporibus exercitationem praesentium eveniet velit commodi aliquam cumque odio eius alias.</p>
+
+    <h3>Práticando aula de formulários</h3>
+
+    <form action="index.html" enctype="multipart/form-data">
+        <h1>Cadastre-se</h1>
+        <p>É rápido e fácil</p>
+
+        <input type="text" name="nome" id="nome" placeholder="Nome">
+
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+        
+        <br>
+
+        <input type="text" name="celular-email" id="celular-email" placeholder="Celular ou email">
+
+        <br>
+
+        <label>Data de nascimento</label>
+        <br>
+        <select name="dia" id="dia">
+            <option value="13">13</option>
+            <option value="28">28</option>
+        </select>
+
+        <select name="mes" id="mes">
+            <option value="janeiro">Jan</option>
+            <option value="agosto">Ago</option>
+        </select>
+
+        <select name="ano" id="ano">
+            <option value="1984">1984</option>
+            <option value="2023" selected>2023</option>
+        </select>
+
+        <br>
+
+        <label>Gênero</label>
+        <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+        <br>
+
+        <p>Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você podera receber notificações por SMS e cancelar isso quando quiser.</p>
+
+        <br>
+
+        <input type="file" name="foto" id="foto">
+
+        <br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
 </body>
 </html>
